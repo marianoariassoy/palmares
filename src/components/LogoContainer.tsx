@@ -6,12 +6,12 @@ const LogoContainer = () => {
   const { homeSection } = useDataContext();
 
   return homeSection ? (
-    <a href="#home" className="item-scroll">
+    <a href="#home" className="item-scroll logo">
       <Logo />
     </a>
   ) : (
-    <Link to="/">
-      <img src="./icons/logo.png" />
+    <Link to="/" className="logo">
+      <Logo />
     </Link>
   );
 };

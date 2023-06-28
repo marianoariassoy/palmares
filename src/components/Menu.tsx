@@ -5,7 +5,7 @@ const Menu = () => {
   };
 
   return (
-    <div className="absolute top-14 px-14 right-0 z-30 flex gap-4">
+    <div className="flex gap-4">
       <div className="text-sm">Menú</div>
       <div id="nav-menu" onClick={OpenMenu}>
         <span></span>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="uuid-b3750645-6f09-42e0-a768-72948a431203" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" width="44.9" height="55.8" viewBox="0 0 44.9 55.8">
+  <defs>
+    <style>
+      .uuid-8060f8c6-4451-4804-a301-0bdd60d94913 {
+        fill: none;
+        stroke: #fff;
+        stroke-linecap: round;
+        stroke-miterlimit: 10;
+        stroke-width: 6px;
+      }
+    </style>
+  </defs>
+  <g id="uuid-be66f989-cf27-4f25-aff2-3a6cf5892c1d" data-name="Capa 1">
+    <path class="uuid-8060f8c6-4451-4804-a301-0bdd60d94913" d="M3,52.8V22.5C3,11.7,11.7,3,22.5,3s19.5,8.7,19.5,19.5v30.4"/>
+  </g>
+</svg>

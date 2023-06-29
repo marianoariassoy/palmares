@@ -26,6 +26,11 @@
   }
 }
 
+.active {
+  color: currentColor;
+  border-bottom: 3px solid currentColor;
+}
+
 #servicios {
   background-image: url(./images/bg.jpg);
   background-size: cover;
@@ -50,7 +55,7 @@ textarea::placeholder {
     content: "";
     display: block;
     width: 50px;
-    height: 3px;
+    height: 4px;
     background-color: currentColor;
     margin-top: 0.5rem;
     text-align: right;
@@ -66,7 +71,7 @@ textarea::placeholder {
     content: "";
     display: block;
     width: 50px;
-    height: 3px;
+    height: 4px;
     background-color: currentColor;
     margin-top: 0.5rem;
     text-align: right;
@@ -75,7 +80,8 @@ textarea::placeholder {
 }
 
 .icons {
-  svg {
+  img {
+    height: 70%;
     @media (max-width: 980px) {
       height: 50%;
     }
@@ -83,9 +89,9 @@ textarea::placeholder {
 }
 
 .logo {
-  svg {
+  img {
     @media (max-width: 980px) {
-      width: 64px;
+      width: 120px;
     }
   }
 }

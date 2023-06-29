@@ -16,7 +16,7 @@ const Contacto = () => {
             <Form />
           </div>
           <div className="lg:w-1/3 flex flex-col gap-4 items-center pb-16 mt-20 lg:mt-0">
-            <img src="./icons/iso2.svg" />
+            <img src="./icons/iso2.svg" width="80" />
             Ruta Provincial 88 Km. 4 <br /> Cerrillos - Salta - Argentina.
           </div>
         </div>

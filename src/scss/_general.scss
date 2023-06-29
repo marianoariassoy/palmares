@@ -6,7 +6,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   font-weight: 500;
   @media (max-width: 980px) {
-    font-size: 13px;
+    font-size: 12px;
   }
 }
 
@@ -20,11 +20,11 @@ body {
 }
 
 .font-secondary {
-  font-family: "Neucha", sans-serif;
+  font-family: "Ramona", serif;
 }
 
 .font-tertiary {
-  font-family: "Unna", serif;
+  font-family: "Addington", sans-serif;
 }
 
 //Links
@@ -69,7 +69,7 @@ svg {
 }
 
 .fade-in {
-  animation: fadeIn ease 0.3s;
+  animation: fadeIn ease 0.2s;
 }
 @keyframes fadeIn {
   0% {

@@ -1,6 +1,6 @@
+import { useEffect } from "react";
 import { Helmet } from "react-helmet";
 import { useDataContext } from "../../context/useDataContext";
-import { useEffect } from "react";
 import Layout from "../../layout/Layout";
 import HomeSection from "./HomeSection";
 import Acercade from "./Acercade";
@@ -8,12 +8,22 @@ import Servicios from "./Servicios";
 import Galeria from "./Galeria";
 import Contacto from "./Contacto";
 
-const Home = () => {
+type HomeProps = {
+  goto: string;
+};
+
+const Home = ({ goto }: HomeProps) => {
   const { setHomeSection } = useDataContext();
 
   useEffect(() => {
     setHomeSection(true);
-  }, [setHomeSection]);
+
+    const targetElement = document.querySelector(`#${goto}`) as HTMLElement;
+    window.scrollTo({
+      top: targetElement.offsetTop - 90,
+      behavior: "smooth",
+    });
+  }, [goto, setHomeSection]);
 
   return (
     <Layout>

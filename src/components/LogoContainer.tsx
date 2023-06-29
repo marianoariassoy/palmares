@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import { Logo } from "../icons/svgs";
 import { useDataContext } from "../context/useDataContext";
 
 const LogoContainer = () => {
@@ -7,11 +6,11 @@ const LogoContainer = () => {
 
   return homeSection ? (
     <a href="#home" className="item-scroll logo">
-      <Logo />
+      <img src="/assets/logo.svg" alt="" />
     </a>
   ) : (
     <Link to="/" className="logo">
-      <Logo />
+      <img src="/assets/logo.svg" alt="" />
     </Link>
   );
 };

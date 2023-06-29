@@ -11,7 +11,7 @@ const pageScroll = () => {
     const targetElement = document.querySelector(targetId);
 
     window.scrollTo({
-      top: targetElement.offsetTop,
+      top: targetElement.offsetTop - 120,
       behavior: "smooth",
     });
   }

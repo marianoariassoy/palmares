@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import { navItems } from "../data/Data";
 import { useDataContext } from "../context/useDataContext";
 
@@ -22,9 +22,9 @@ const Nav = () => {
                     {item.name}
                   </a>
                 ) : (
-                  <Link to={item.url} className="nav-main">
+                  <NavLink to={item.url} className="nav-main">
                     {item.name}
-                  </Link>
+                  </NavLink>
                 )}
               </li>
             );

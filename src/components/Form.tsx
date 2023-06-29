@@ -48,7 +48,7 @@ const Form = () => {
         <span className="text-3xl font-bold">{dataContact[lan].thanks}</span>
       ) : (
         <form onSubmit={handleSubmit(onSubmit)}>
-          <div className="grid grid-cols-2 gap-4 font-light text-white">
+          <div className="grid grid-cols-2 gap-4 font-light text-white text-sm">
             <div>
               <input className="w-full bg-primary h-11 text-white px-4" placeholder={dataContact[lan].name} {...register("name", { required: true })} />
               {errors.name && <Error />}
@@ -76,7 +76,7 @@ const Form = () => {
           {sending ? (
             <BeatLoader className="mt-6" />
           ) : (
-            <button type="submit" className="bg-secondary text-white h-11 hover:bg-black hover:shadow-xl transition px-8">
+            <button type="submit" className="bg-secondary text-sm text-white h-11 hover:bg-black hover:shadow-xl transition px-8">
               {dataContact[lan].send}
             </button>
           )}

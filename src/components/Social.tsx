@@ -11,7 +11,7 @@ const Social = () => {
           </a>
         </li>
         <li>
-          <a href="https://www.instagram.com/" target="_blank">
+          <a href="https://www.instagram.com/palmares_housing" target="_blank">
             <Instagram />
           </a>
         </li>

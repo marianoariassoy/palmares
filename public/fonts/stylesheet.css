@@ -1,0 +1,31 @@
+@font-face {
+  font-display: swap;
+  font-family: "Addington";
+  font-style: normal;
+  font-weight: normal;
+  src: url("AddingtonCF-Regular.woff2") format("woff2"), url("AddingtonCF-Regular.woff") format("woff"), url("AddingtonCF-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Ramona";
+  font-style: normal;
+  font-weight: 300;
+  src: url("Ramona-Light.woff2") format("woff2"), url("Ramona-Light.woff") format("woff"), url("Ramona-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Montserrat Bold";
+  font-style: normal;
+  font-weight: 700;
+  src: url("Montserrat-Bold.woff2") format("woff2"), url("Montserrat-Bold.woff") format("woff"), url("Montserrat-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  src: url("Montserrat-Medium.woff2") format("woff2"), url("Montserrat-Medium.woff") format("woff"), url("Montserrat-Medium.ttf") format("truetype");
+}

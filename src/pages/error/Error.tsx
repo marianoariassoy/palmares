@@ -4,7 +4,7 @@ import Layout from "../../layout/Layout";
 const Error = () => {
   useEffect(() => {
     const header = document.querySelector("header");
-    header.classList.add("text-primary");
+    header.classList.add("bg-primary");
   }, []);
 
   return (

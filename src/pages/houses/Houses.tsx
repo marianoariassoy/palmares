@@ -14,8 +14,11 @@ const Houses = ({ name }: HousesProps) => {
 
   useEffect(() => {
     setHomeSection(false);
-    window.scrollTo(0, 0);
   }, [setHomeSection]);
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [name]);
 
   return (
     <Layout>

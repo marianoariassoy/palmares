@@ -32,12 +32,12 @@ const Slider = ({ data, arrows, autoplay }: SliderComponentProps) => {
   const properties = {
     prevArrow: (
       <button className="ml-6">
-        <img src="/assets/back.svg" />
+        <img src="/images/back.svg" />
       </button>
     ),
     nextArrow: (
       <button className="mr-6">
-        <img src="/assets/forward.svg" />
+        <img src="/images/forward.svg" />
       </button>
     ),
     transitionDuration: 500,

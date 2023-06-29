@@ -50,57 +50,6 @@ export const navItems = [
   },
 ];
 
-export const dataServices = [
-  {
-    num: 1,
-    title: "AC Frio/Calor",
-  },
-  {
-    num: 2,
-    title: "Wi Fi",
-  },
-  {
-    num: 3,
-    title: "Frigobar",
-  },
-  {
-    num: 4,
-    title: "Ropa de Cama",
-  },
-  {
-    num: 5,
-    title: "Galeria",
-  },
-  {
-    num: 6,
-    title: "Desayuno",
-  },
-  {
-    num: 7,
-    title: "Estacionamiento",
-  },
-  {
-    num: 8,
-    title: "Piscina",
-  },
-  {
-    num: 9,
-    title: "Asadores",
-  },
-  {
-    num: 10,
-    title: "Fogón",
-  },
-  {
-    num: 11,
-    title: "Bicicletas",
-  },
-  {
-    num: 12,
-    title: "Picadas",
-  },
-];
-
 export const dataContact = {
   es: {
     name: "Nombre y apellido*",

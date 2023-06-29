@@ -17,7 +17,6 @@ const Home = ({ goto }: HomeProps) => {
 
   useEffect(() => {
     setHomeSection(true);
-
     const targetElement = document.querySelector(`#${goto}`) as HTMLElement;
     window.scrollTo({
       top: targetElement.offsetTop - 90,
@@ -32,7 +31,6 @@ const Home = ({ goto }: HomeProps) => {
       <Servicios />
       <Galeria />
       <Contacto />
-
       <Helmet>
         <title>Palmares Nature Housing</title>
         <meta name="description" content="Mini complejo en el campo estilo colonial/moderno fusionado" />

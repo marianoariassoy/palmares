@@ -1,4 +1,5 @@
 import Form from "../../components/Form";
+import iso from "../../assets/iso2.svg";
 
 const Contacto = () => {
   return (
@@ -10,7 +11,7 @@ const Contacto = () => {
             <Form />
           </div>
           <div className="lg:w-1/3 flex flex-col gap-4 items-center pb-16 mt-20 lg:mt-0">
-            <img src="./icons/iso2.svg" width="80" />
+            <img src={iso} width="80" />
             Ruta Provincial 88 Km. 4 <br /> Cerrillos - Salta - Argentina.
           </div>
         </div>

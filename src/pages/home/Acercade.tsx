@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom";
 import ImageComponent from "../../components/ImageComponent";
 
 const Acercade = () => {
@@ -8,14 +9,21 @@ const Acercade = () => {
           <h1 className="text-6xl lg:text-7xl font-light mb-4 font-secondary">
             Let’s feel <br /> the nature.
           </h1>
-          <p className="mb-4 text-wrap-balance">Mini complejo en el campo estilo colonial/moderno fusionado, cuenta con:</p>
-          <h2 className="mb-4 text-3xl font-tertiary">Casa Colonial:</h2>
+          <p className="mb-4 text-wrap-balance">Inmersos en medio de la naturaleza, desarrollamos PALMARES, un mini complejo turístico que fusiona el estilo colonial con el moderno para ofrecerte una estadía plancentera. Desconectate y disfrutá.</p>
+          <NavLink to="/casa-colonial" className="mb-4 text-3xl font-tertiary block">
+            Casa Colonial:
+          </NavLink>
           <p className="mb-4 text-wrap-balance">
-            Equipada para 6 personas, asador, horno a leña , fogón, galería, aire acondicionado frio/calor, cocina , baño completo toilette, dos dormitorios, ropa de cama, cocina equipada, wifi y piscina. Contamos con una carta a su disposición para
-            solicitar desayuno o picadas.
+            Casa praparada para 6 personas. La misma cuenta con dos dormitorios, baño completo, toilette, cocina equipada, aire acondicionado frio/calor wifi. Amenities: galería, asador, horno a leña, fogón, piscina. Equipada con ropa de cama,
+            accesorios de cocina, jabón, shampoo y acondicionador. Cuentan con el servicio de freegobar: Agua con y sin gas, gaseosas, vinos, cervezas, snack, cafetera dolce gusto y cápsulas.
           </p>
-          <h2 className="mb-4 text-3xl font-tertiary">Tiny House:</h2>
-          <p className="mb-4 text-wrap-balance">Un dormitorio, cama matrimonial, un baño completo, kitchenette, piscina y estacionamiento . Contamos con una carta a su disposición para solicitar desayuno o picadas.</p>
+          <NavLink to="/tiny-house" className="mb-4 text-3xl font-tertiary block">
+            Tiny House:
+          </NavLink>
+          <p className="mb-4 text-wrap-balance">
+            2 Tiny houses, las mismas poseen un dormitorio con cama matrimonial, un baño completo y kitchenette. Equipadas con ropa de cama, accesorios de cocina, jabón, shampoo y acondicionador. Cuentan con el servicio de freegobar: Agua con y sin
+            gas, gaseosas, vinos, cervezas, snack, cafetera dolce gusto y cápsulas. Piscina y estacionamiento en el complejo.
+          </p>
         </div>
         <div className="relative text-primary lg:w-2/6">
           <ImageComponent src="/images/pic1.png" alt="Imagen casas" />

@@ -1,12 +1,6 @@
-import { useEffect } from "react";
 import ImageComponent from "../../components/ImageComponent";
-import { changeColor } from "../../utils/headerColor";
 
 const Acercade = () => {
-  useEffect(() => {
-    changeColor("#acercade");
-  }, []);
-
   return (
     <section id="acercade">
       <div className="relative w-full max-w-7xl mx-auto lg:flex items-center px-14 py-14">

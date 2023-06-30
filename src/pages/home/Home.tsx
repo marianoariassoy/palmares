@@ -19,7 +19,7 @@ const Home = ({ goto }: HomeProps) => {
     setHomeSection(true);
     const targetElement = document.querySelector(`#${goto}`) as HTMLElement;
     window.scrollTo({
-      top: targetElement.offsetTop - 90,
+      top: targetElement.offsetTop - 80,
       behavior: "smooth",
     });
   }, [goto, setHomeSection]);

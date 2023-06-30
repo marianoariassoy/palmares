@@ -65,9 +65,6 @@ svg polyline {
 svg line {
   stroke: currentColor;
 }
-svg path {
-  stroke: currentColor;
-}
 
 .text-wrap-balance {
   text-wrap: balance;

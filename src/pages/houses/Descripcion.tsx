@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
 import ImageComponent from "../../components/ImageComponent";
-import { changeColor } from "../../utils/headerColor";
 import TextHTML from "../../hooks/useHTML";
 import { Forward, Back } from "../../icons/svgs";
 import useFetch from "../../hooks/useFetch";
@@ -12,10 +11,6 @@ const Description = ({ name }) => {
   useEffect(() => {
     name === "casa colonial" ? sesHouseName("casa-colonial") : sesHouseName("tiny-house");
   }, [name]);
-
-  useEffect(() => {
-    changeColor(".descripcion");
-  }, []);
 
   const { data, loading } = useFetch(`/${houseName}`);
 

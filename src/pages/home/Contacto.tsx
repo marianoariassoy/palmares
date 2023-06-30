@@ -1,12 +1,6 @@
 import Form from "../../components/Form";
-import { changeColor } from "../../utils/headerColor";
-import { useEffect } from "react";
 
 const Contacto = () => {
-  useEffect(() => {
-    changeColor("#contacto");
-  }, []);
-
   return (
     <section id="contacto">
       <div className="w-full max-w-7xl mx-auto px-14 py-24 pb-8">

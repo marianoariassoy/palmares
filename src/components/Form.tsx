@@ -19,13 +19,13 @@ const Form = () => {
   const onSubmit = (data) => {
     setSending(true);
     const sender = {
-      to: " ",
-      from: "no-reply@riica.com.ar",
+      to: "luismub@gmail.com",
+      from: "no-reply@palmareshousing.com.ar",
       from_name: "Palmares",
       subject: "Contacto",
     };
 
-    axios.post(" ", { ...data, ...sender }).then((data) => {
+    axios.post("http://palmareshousing.com.ar/backend/send-email.php ", { ...data, ...sender }).then((data) => {
       if (data.data === "success") {
         setSended(true);
         setSending(false);
@@ -43,9 +43,9 @@ const Form = () => {
   return (
     <>
       {error ? (
-        <span className="text-2xl font-bold">{dataContact[lan].error}</span>
+        <span className="text-2xl">{dataContact[lan].error}</span>
       ) : sended ? (
-        <span className="text-3xl font-bold">{dataContact[lan].thanks}</span>
+        <span className="text-3xl">{dataContact[lan].thanks}</span>
       ) : (
         <form onSubmit={handleSubmit(onSubmit)}>
           <div className="grid grid-cols-2 gap-4 font-light text-white text-sm">

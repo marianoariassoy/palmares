@@ -6,13 +6,16 @@ const Nav = () => {
   const { homeSection } = useDataContext();
 
   const closeMenu = () => {
-    document.querySelector("#nav-menu").classList.remove("active");
+    document.querySelector("#nav-menu").classList.remove("active-nav");
     document.querySelector("nav").classList.add("hidden");
   };
 
   return (
     <nav className="fixed w-screen h-screen fade-in bg-primary top-0 right-0 -z-10 hidden transition-all">
-      <div className="w-full h-full text-center p-8 flex justify-center items-center" onClick={closeMenu}>
+      <div
+        className="w-full h-full text-center p-8 flex justify-center items-center"
+        onClick={closeMenu}
+      >
         <ul className="font-tertiary text-3xl lg:text-4xl">
           {navItems.map((item, index) => {
             return (

@@ -1,5 +1,4 @@
 import { useEffect } from "react";
-// import { Logo } from "../icons/svgs";
 import { Facebook } from "../icons/svgs";
 import { Instagram } from "../icons/svgs";
 import pageScroll from "../utils/pageScroll";
